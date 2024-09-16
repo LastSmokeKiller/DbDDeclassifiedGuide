@@ -1,0 +1,1 @@
+print("Hello and Welcome to the DbD's Declassified Survival Guide!")
