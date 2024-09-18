@@ -187,11 +187,11 @@ AUTH_USER_MODEL = 'accounts.User'
 SITE_ID = 1
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+# EMAIL_HOST =
+# EMAIL_PORT = 
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'dbddeclassified.jobrunner@gmail.com'
-EMAIL_HOST_PASSWORD = 'zpwhwyymhzfaxixq'
+# EMAIL_HOST_USER = 
+# EMAIL_HOST_PASSWORD = 
 
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
