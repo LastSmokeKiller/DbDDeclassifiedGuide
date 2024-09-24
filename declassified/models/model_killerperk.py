@@ -20,16 +20,13 @@ class KillerPerk(models.Model):
     common = models.CharField(max_length=15)
 
     # The Survivor id the perk comes from
-    killer = models.ForeignKey(Killer, on_delete=models.CASCADE)
+    killer_id = models.ForeignKey(Killer, on_delete=models.CASCADE)
 
     # The dlc the Survivor comes from
-    dlc = models.ForeignKey(DLC, on_delete=models.CASCADE)
-
-    # Is the Perk from a Licensed Chapter?
-    licensed = models.BooleanField(default=False)
+    dlc_id = models.ForeignKey(DLC, on_delete=models.CASCADE)
 
     # The discription of the Perk
-    discription = models.TextField()
+    description = models.TextField()
 
     # The Use Case of the Perk
     use_case = models.TextField(blank=True)
@@ -79,45 +76,53 @@ class KillerPerk(models.Model):
         # Call that returns the short name of an object in Surv Perks table
         return self.common
     
-    def getSurvivor(self):
+    def getKiller(self):
         # Call that returns the survivor name who has the perk
-        return self.survivor
+        return self.killer_id
     
     def getDLC(self):
         # returns dlc
-        return self.dlc
-    
-    def getLicensed(self):
-        # returns licensed bool
-        return self.licensed
+        return self.dlc_id
     
     def getDescription(self):
         # returns perk description
-        return self.discription
+        return self.description
     
     def getUseCase(self):
         # returns use case
         return self.use_case
     
     def getBestPair(self):
-        # returns best pairing perks
-        return self.best_pair
+        # returns list best pairing perks
+        list = []
+        for pair in self.best_pair.all():
+            if pair.id not in list:
+                list.append(pair.id)
+        return list
     
     def getBestExp(self):
         # returns best pairing explaination
         return self.best_exp
     
     def getNuetralPair(self):
-        # returns neutral pairing perks
-        return self.neutral_pair
+        # returns list neutral pairing perks
+        list = []
+        for pair in self.neutral_pair.all():
+            if pair.id not in list:
+                list.append(pair.id)
+        return list
     
     def getNuetralExp(self):
         # returns neutral pairing explaination
         return self.neutral_exp
     
     def getBadPair(self):
-        # returns bad pairing perks
-        return self.bad_pair
+        # returns list bad pairing perks
+        list = []
+        for pair in self.bad_pair.all():
+            if pair.id not in list:
+                list.append(pair.id)
+        return list
     
     def getBadExp(self):
         # returns bad pairing explaination

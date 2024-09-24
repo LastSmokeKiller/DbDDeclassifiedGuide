@@ -1,7 +1,7 @@
 from django.db import models
 
 from .model_dlc import DLC
-from .model_killerperk import 
+from .model_killerperk import KillerPerk
 
 class Killer(models.Model):
     """ORM for the Survivor table in the Survivor Database
@@ -13,38 +13,59 @@ class Killer(models.Model):
     # The Survivor Database id
     id = models.AutoField(primary_key=True)
 
-    # The name of the Survivor
+    # The name of the Killer
     name = models.CharField(max_length=30)
 
-    # Nickname of the Survivor
+    # Nickname of the Killer
     nickname = models.CharField(max_length=15)
 
+    # DLC id that the Killer comes from
     dlc_id = models.ForeignKey(DLC,on_delete=models.CASCADE)
 
-    survivor_perks = models.ManyToManyField(SurvivorPerk)
-
-    licensed = models.BooleanField()
+    # List of perks that belong to the killer
+    killer_perks = models.ManyToManyField(KillerPerk)
 
     def __str__(self):
-        # returns name of character
+        # returns name of killer
         return self.name
     
     def getId(self):
-
+        # returns id of the killer
         return self.id
     
     def getNickname(self):
-
+        # returns the nickname of the killer
         return self.nickname
     
     def getDLCid(self):
-
+        # returns the id of the related dlc
         return self.dlc_id
     
-    def getSurvivorPerks(self):
+    # The rating of this perk from other data sources
+    rating = models.DecimalField()
 
-        return self.survivor_perks
+    # The rating of this perk from community members (calculated and displayed out of 5)
+    community_rating = models.DateField()
+
+    # The personal rating of the Survival Guide creator (S to F tier)
+    site_rating = models.IntegerField()
     
-    def getLicense(self):
-
-        return self.licensed
+    def getKillerPerks(self):
+        # returns the list of killer perks related to the id
+        list = []
+        for killerPerks in self.killer_perks.all():
+            if killerPerks.id not in list:
+                list.append(killerPerks.id)
+        return list
+    
+    def getRating(self):
+        # Returns outside rating
+        return self.rating
+    
+    def getCommunity(self):
+        # Returns community rating
+        return self.community_rating
+    
+    def getSiteRating(self):
+        # Returns site rating
+        return self.site_rating

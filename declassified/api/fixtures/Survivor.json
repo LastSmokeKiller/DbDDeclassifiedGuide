@@ -4,8 +4,479 @@
         "pk": 1,
         "fields": 
         {
-            
+            "name": "Dwight Fairfield",
+            "nickname":"Dwight",
+            "dlc_id": 1,
+            "survivor_perks":[]
         }
-
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 2,
+        "fields": 
+        {
+            "name": "Meg Thomas",
+            "nickname":"Meg",
+            "dlc_id":1,
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 3,
+        "fields": 
+        {
+            "name": "Claudette Morel",
+            "nickname":"Claudette",
+            "dlc_id":1,
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 4,
+        "fields": 
+        {
+            "name": "Jake Park",
+            "nickname":"Jake",
+            "dlc_id":1,
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 5,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 6,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 7,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 8,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },{
+        "model": "declassified.survivor",
+        "pk": 9,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 10,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 11,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 12,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 13,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 14,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 15,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 16,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },{
+        "model": "declassified.survivor",
+        "pk": 17,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 18,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 19,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 20,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 21,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 22,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 23,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 24,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },{
+        "model": "declassified.survivor",
+        "pk": 25,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 26,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 27,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 28,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 29,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 30,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 31,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 32,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },{
+        "model": "declassified.survivor",
+        "pk": 33,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 34,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 35,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 36,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 37,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 38,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 39,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 40,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 41,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 42,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 43,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 44,
+        "fields": 
+        {
+            "name": "",
+            "nickname":"",
+            "dlc_id":"",
+            "survivor_perks":[]
+        }
     }
 ]

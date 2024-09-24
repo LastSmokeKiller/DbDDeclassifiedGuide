@@ -25,17 +25,14 @@ class SurvivorPerk(models.Model):
     # The dlc the Survivor comes from
     dlc = models.ForeignKey(DLC, on_delete=models.CASCADE)
 
-    # Is the Perk from a Licensed Chapter?
-    licensed = models.BooleanField(default=False)
-
     # The discription of the Perk
-    discription = models.TextField()
+    description = models.TextField()
 
     # The Use Case of the Perk
     use_case = models.TextField(blank=True)
 
     # The Best Perk Pairings for this perk and grab that/those ids
-    best_pair = models.ManyToManyField(SurvivorPerk)
+    best_pair = models.ManyToManyField()
 
     # The explaination on why these perks pair together
     best_exp = models.TextField()
@@ -46,13 +43,13 @@ class SurvivorPerk(models.Model):
         but could also be bad. This usually depends on how they are used
         and survivor use preference.
     """
-    neutral_pair =  models.ManyToManyField(SurvivorPerk)
+    neutral_pair =  models.ManyToManyField()
 
     # An explaination on why it's a neutral combo
     neutral_exp = models.TextField()
 
     # Perks that do not pair together
-    bad_pair = models.ManyToManyField(SurvivorPerk)
+    bad_pair = models.ManyToManyField()
 
     # An explaination on why the perks don't pair
     bad_exp = models.TextField()
@@ -87,13 +84,9 @@ class SurvivorPerk(models.Model):
         # returns dlc
         return self.dlc
     
-    def getLicensed(self):
-        # returns licensed bool
-        return self.licensed
-    
     def getDescription(self):
         # returns perk description
-        return self.discription
+        return self.description
     
     def getUseCase(self):
         # returns use case

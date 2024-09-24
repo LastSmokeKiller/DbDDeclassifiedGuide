@@ -1,0 +1,522 @@
+[
+    {
+        "model": "declassified.dlc",
+        "pk": 1,
+        "fields":
+        {
+            "name":"Base Game",
+            "survivors":[1,2,3,4],
+            "killers": [1,2,3],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 2,
+        "fields":
+        {
+            "name":"The Last Breath",
+            "survivors":[5],
+            "killers":[4],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 3,
+        "fields":
+        {
+            "name":"Halloween",
+            "survivors":[6],
+            "killers":[5],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 4,
+        "fields":
+        {
+            "name":"Of Flesh and Mud",
+            "survivors":[7],
+            "killers":[6],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 5,
+        "fields":
+        {
+            "name":"Spark of Madness",
+            "survivors":[8],
+            "killers":[7],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 6,
+        "fields":
+        {
+            "name":"A Lullaby for the Dark",
+            "survivors":[9],
+            "killers":[8],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 7,
+        "fields":
+        {
+            "name":"Leatherface",
+            "survivors":[],
+            "killers":[9],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 8,
+        "fields":
+        {
+            "name":"A Nightmare on Elm Street",
+            "survivors":[10],
+            "killers":[10],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 9,
+        "fields":
+        {
+            "name":"Saw",
+            "survivors":[11],
+            "killers":[11],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 10,
+        "fields":
+        {
+            "name":"Curtain Call",
+            "survivors":[12],
+            "killers":[12],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 11,
+        "fields":
+        {
+            "name":"Shattered Bloodline",
+            "survivors":[13],
+            "killers":[13],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 12,
+        "fields":
+        {
+            "name":"Darkness Among Us",
+            "survivors":[14],
+            "killers":[14],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 13,
+        "fields":
+        {
+            "name":"Demise of The Faithful",
+            "survivors":[15],
+            "killers":[15],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 14,
+        "fields":
+        {
+            "name":"Ash vs. Evil Dead",
+            "survivors":[16],
+            "killers":[],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 15,
+        "fields":
+        {
+            "name":"Ghost Face",
+            "survivors":[],
+            "killers":[16],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 16,
+        "fields":
+        {
+            "name":"Stranger Things",
+            "survivors":[17,18],
+            "killers":[17],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 17,
+        "fields":
+        {
+            "name":"Cursed Legacy",
+            "survivors":[19],
+            "killers":[18],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 18,
+        "fields":
+        {
+            "name":"Chains of Hate",
+            "survivors":[20],
+            "killers":[19],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 19,
+        "fields":
+        {
+            "name":"Silent Hill",
+            "survivors":[21],
+            "killers":[20],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 20,
+        "fields":
+        {
+            "name":"Descend Beyond",
+            "survivors":[22],
+            "killers":[21],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 21,
+        "fields":
+        {
+            "name":"A Binding of Kin",
+            "survivors":[23],
+            "killers":[22],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 22,
+        "fields":
+        {
+            "name":"All-Kill",
+            "survivors":[24],
+            "killers":[23],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 23,
+        "fields":
+        {
+            "name":"Resident Evil",
+            "survivors":[25,26],
+            "killers":[24],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 24,
+        "fields":
+        {
+            "name":"Hellraiser",
+            "survivors":[],
+            "killers":[25],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 25,
+        "fields":
+        {
+            "name":"Hour of the Witch",
+            "survivors":[27],
+            "killers":[],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 26,
+        "fields":
+        {
+            "name":"Portrait of a Murder",
+            "survivors":[26],
+            "killers":[26],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 27,
+        "fields":
+        {
+            "name":"Sadako Rising",
+            "survivors":[27],
+            "killers":[27],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 28,
+        "fields":
+        {
+            "name":"Roots of Dread",
+            "survivors":[28],
+            "killers":[28],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 29,
+        "fields":
+        {
+            "name":"Resident Evil: Project W",
+            "survivors":[29,30],
+            "killers":[29],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 30,
+        "fields":
+        {
+            "name":"Forged in Fog",
+            "survivors":[31],
+            "killers":[30],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 31,
+        "fields":
+        {
+            "name":"Tools of Torment",
+            "survivors":[32],
+            "killers":[31],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 32,
+        "fields":
+        {
+            "name":"End Transmission",
+            "survivors":[33],
+            "killers":[32],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 33,
+        "fields":
+        {
+            "name":"Nicolas Cage",
+            "survivors":[34],
+            "killers":[],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 34,
+        "fields":
+        {
+            "name":"Alien",
+            "survivors":[35],
+            "killers":[33],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 35,
+        "fields":
+        {
+            "name":"Chucky",
+            "survivors":[],
+            "killers":[34],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 36,
+        "fields":
+        {
+            "name":"Alan Wake",
+            "survivors":[36],
+            "killers":[],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 37,
+        "fields":
+        {
+            "name":"All Things Wicked",
+            "survivors":[37],
+            "killers":[35],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": false
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 38,
+        "fields":
+        {
+            "name":"Dungeons & Dragons",
+            "survivors":[38],
+            "killers":[36],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 39,
+        "fields":
+        {
+            "name":"Tomb Raider",
+            "survivors":[39],
+            "killers":[],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 40,
+        "fields":
+        {
+            "name":"Castlevania",
+            "survivors":[40],
+            "killers":[37],
+            "survivor_perks":[],
+            "killer_perks": [],
+            "licensed": true
+        }    
+    }
+]

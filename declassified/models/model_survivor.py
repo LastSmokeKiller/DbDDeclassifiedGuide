@@ -23,30 +23,29 @@ class Survivor(models.Model):
 
     survivor_perks = models.ManyToManyField(SurvivorPerk)
 
-    licensed = models.BooleanField()
-
     def __str__(self):
-        # returns name of character
+        # returns name of the survivor
         return self.name
     
     def getId(self):
-
+        # returns id of the survivor
         return self.id
     
     def getNickname(self):
-
+        # returns the nickname of the survivor
         return self.nickname
     
     def getDLCid(self):
-
+        # returns the id of the related dlc
         return self.dlc_id
     
     def getSurvivorPerks(self):
-
-        return self.survivor_perks
+        # returns the list of survivor perks related to the id
+        list = []
+        for survivorPerks in self.survivor_perks.all():
+            if survivorPerks.id not in list:
+                list.append(survivorPerks.id)
+        return list
     
-    def getLicense(self):
-
-        return self.licensed
     
     
