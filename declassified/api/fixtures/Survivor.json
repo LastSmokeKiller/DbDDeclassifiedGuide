@@ -1,13 +1,24 @@
 [
     {
         "model": "declassified.survivor",
+        "pk": 0,
+        "fields": 
+        {
+            "name": "Base Game",
+            "nickname":"Base Game",
+            "dlc_id": 1,
+            "survivor_perks":[1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+        }
+    },
+    {
+        "model": "declassified.survivor",
         "pk": 1,
         "fields": 
         {
             "name": "Dwight Fairfield",
             "nickname":"Dwight",
             "dlc_id": 1,
-            "survivor_perks":[]
+            "survivor_perks":[15,16,17]
         }
     },
     {
@@ -18,7 +29,7 @@
             "name": "Meg Thomas",
             "nickname":"Meg",
             "dlc_id":1,
-            "survivor_perks":[]
+            "survivor_perks":[18,19,20]
         }
     },
     {
@@ -29,7 +40,7 @@
             "name": "Claudette Morel",
             "nickname":"Claudette",
             "dlc_id":1,
-            "survivor_perks":[]
+            "survivor_perks":[21,22,23]
         }
     },
     {
@@ -40,7 +51,7 @@
             "name": "Jake Park",
             "nickname":"Jake",
             "dlc_id":1,
-            "survivor_perks":[]
+            "survivor_perks":[24,25,26]
         }
     },
     {
@@ -48,10 +59,10 @@
         "pk": 5,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Nea Karlsson",
+            "nickname":"Nea",
+            "dlc_id":2,
+            "survivor_perks":[27,28,29]
         }
     },
     {
@@ -59,10 +70,10 @@
         "pk": 6,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Laurie Strode",
+            "nickname":"Laurie",
+            "dlc_id":3,
+            "survivor_perks":[30,31,32]
         }
     },
     {
@@ -70,10 +81,10 @@
         "pk": 7,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Ace Visconti",
+            "nickname":"Ace",
+            "dlc_id":4,
+            "survivor_perks":[33,34,35]
         }
     },
     {
@@ -81,20 +92,20 @@
         "pk": 8,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "William \"Bill\" Overbeck",
+            "nickname":"Bill",
+            "dlc_id":5,
+            "survivor_perks":[36,37,38]
         }
     },{
         "model": "declassified.survivor",
         "pk": 9,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Feng Min",
+            "nickname":"Feng",
+            "dlc_id":6,
+            "survivor_perks":[39,40,41]
         }
     },
     {
@@ -102,10 +113,10 @@
         "pk": 10,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "David King",
+            "nickname":"David",
+            "dlc_id":7,
+            "survivor_perks":[42,43,44]
         }
     },
     {
@@ -113,10 +124,10 @@
         "pk": 11,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Quentin Smith",
+            "nickname":"Quentin",
+            "dlc_id":9,
+            "survivor_perks":[45,46,47]
         }
     },
     {
@@ -124,10 +135,10 @@
         "pk": 12,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Detective Tapp",
+            "nickname":"Tapp",
+            "dlc_id":10,
+            "survivor_perks":[48,49,50]
         }
     },
     {
@@ -135,10 +146,10 @@
         "pk": 13,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Kate Denson",
+            "nickname":"Kate",
+            "dlc_id":11,
+            "survivor_perks":[51,52,53]
         }
     },
     {
@@ -146,10 +157,10 @@
         "pk": 14,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Adam Francis",
+            "nickname":"Adam",
+            "dlc_id":12,
+            "survivor_perks":[54,55,56]
         }
     },
     {
@@ -157,10 +168,10 @@
         "pk": 15,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Jeff Johansen",
+            "nickname":"Jeff",
+            "dlc_id":13,
+            "survivor_perks":[57,58,59]
         }
     },
     {
@@ -168,20 +179,20 @@
         "pk": 16,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Jane Romero",
+            "nickname":"Jane",
+            "dlc_id":14,
+            "survivor_perks":[60,61,62]
         }
     },{
         "model": "declassified.survivor",
         "pk": 17,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Ashley J. Williams",
+            "nickname":"Ash",
+            "dlc_id":15,
+            "survivor_perks":[63,64,65]
         }
     },
     {
@@ -189,10 +200,10 @@
         "pk": 18,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Nancy Wheeler",
+            "nickname":"Nancy",
+            "dlc_id":17,
+            "survivor_perks":[66,67,68]
         }
     },
     {
@@ -200,10 +211,10 @@
         "pk": 19,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Steve Harrington",
+            "nickname":"Steve",
+            "dlc_id":17,
+            "survivor_perks":[69,70,71]
         }
     },
     {
@@ -211,10 +222,10 @@
         "pk": 20,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Yui Kimura",
+            "nickname":"Yui",
+            "dlc_id":18,
+            "survivor_perks":[72,73,74]
         }
     },
     {
@@ -222,10 +233,10 @@
         "pk": 21,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Zarina Kassir",
+            "nickname":"Zarina",
+            "dlc_id":19,
+            "survivor_perks":[75,76,77]
         }
     },
     {
@@ -233,10 +244,10 @@
         "pk": 22,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Cheryl Mason",
+            "nickname":"Cheryl",
+            "dlc_id":20,
+            "survivor_perks":[78,79,80]
         }
     },
     {
@@ -244,10 +255,10 @@
         "pk": 23,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Felix Richter",
+            "nickname":"Felix",
+            "dlc_id":21,
+            "survivor_perks":[81,82,83]
         }
     },
     {
@@ -255,20 +266,20 @@
         "pk": 24,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Elodie Rakoto",
+            "nickname":"Elodie",
+            "dlc_id":22,
+            "survivor_perks":[84,85,86]
         }
     },{
         "model": "declassified.survivor",
         "pk": 25,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Yun-Jin Lee",
+            "nickname":"Yun-Jin",
+            "dlc_id":23,
+            "survivor_perks":[87,88,89]
         }
     },
     {
@@ -276,10 +287,10 @@
         "pk": 26,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Jill Valentine",
+            "nickname":"Jill",
+            "dlc_id":24,
+            "survivor_perks":[90,91,92]
         }
     },
     {
@@ -287,10 +298,10 @@
         "pk": 27,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Leon S. Kennedy",
+            "nickname":"Leon",
+            "dlc_id":24,
+            "survivor_perks":[93,94,95]
         }
     },
     {
@@ -298,10 +309,10 @@
         "pk": 28,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Mikaela Reid",
+            "nickname":"Mikaela",
+            "dlc_id":26,
+            "survivor_perks":[96,97,98]
         }
     },
     {
@@ -309,10 +320,10 @@
         "pk": 29,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Jonah Vasquez",
+            "nickname":"Jonah",
+            "dlc_id":27,
+            "survivor_perks":[99,100,101]
         }
     },
     {
@@ -320,10 +331,10 @@
         "pk": 30,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Yoichi Asakawa",
+            "nickname":"Yoichi",
+            "dlc_id":28,
+            "survivor_perks":[102,103,104]
         }
     },
     {
@@ -331,10 +342,10 @@
         "pk": 31,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Haddie Kaur",
+            "nickname":"Haddie",
+            "dlc_id":29,
+            "survivor_perks":[105,106,107]
         }
     },
     {
@@ -342,20 +353,20 @@
         "pk": 32,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Ada Wong",
+            "nickname":"Ada",
+            "dlc_id":30,
+            "survivor_perks":[108,109,110]
         }
     },{
         "model": "declassified.survivor",
         "pk": 33,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Rebecca Chambers",
+            "nickname":"Rebecca",
+            "dlc_id":30,
+            "survivor_perks":[111,112,113]
         }
     },
     {
@@ -363,10 +374,10 @@
         "pk": 34,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Vittorio Toscano",
+            "nickname":"Vittorio",
+            "dlc_id":31,
+            "survivor_perks":[114,115,116]
         }
     },
     {
@@ -374,10 +385,10 @@
         "pk": 35,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Thalita Lyra",
+            "nickname":"Thalita",
+            "dlc_id":32,
+            "survivor_perks":[117,118,119]
         }
     },
     {
@@ -385,10 +396,10 @@
         "pk": 36,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Renato Lyra",
+            "nickname":"Renato",
+            "dlc_id":32,
+            "survivor_perks":[120,121,122]
         }
     },
     {
@@ -396,10 +407,10 @@
         "pk": 37,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Gabriel Soma",
+            "nickname":"Gabriel",
+            "dlc_id":33,
+            "survivor_perks":[123,124,125]
         }
     },
     {
@@ -407,10 +418,10 @@
         "pk": 38,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Nicolas Cage",
+            "nickname":"Nick Cage",
+            "dlc_id":34,
+            "survivor_perks":[126,127,128]
         }
     },
     {
@@ -418,10 +429,10 @@
         "pk": 39,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Ellen Ripley",
+            "nickname":"Ripley",
+            "dlc_id":35,
+            "survivor_perks":[129,130,131]
         }
     },
     {
@@ -429,10 +440,10 @@
         "pk": 40,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Alan Wake",
+            "nickname":"Alan",
+            "dlc_id":37,
+            "survivor_perks":[132,133,134]
         }
     },
     {
@@ -440,10 +451,10 @@
         "pk": 41,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Sable Ward",
+            "nickname":"Sable",
+            "dlc_id":38,
+            "survivor_perks":[135,136,137]
         }
     },
     {
@@ -451,10 +462,10 @@
         "pk": 42,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Aestri Yazar",
+            "nickname":"Aestri",
+            "dlc_id":39,
+            "survivor_perks":[138,139,140]
         }
     },
     {
@@ -462,10 +473,10 @@
         "pk": 43,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Lara Croft",
+            "nickname":"Lara",
+            "dlc_id":40,
+            "survivor_perks":[141,142,143]
         }
     },
     {
@@ -473,10 +484,10 @@
         "pk": 44,
         "fields": 
         {
-            "name": "",
-            "nickname":"",
-            "dlc_id":"",
-            "survivor_perks":[]
+            "name": "Trevor Belmont",
+            "nickname":"Trevor",
+            "dlc_id":41,
+            "survivor_perks":[144,145,146]
         }
     }
 ]

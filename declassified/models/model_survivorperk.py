@@ -20,10 +20,7 @@ class SurvivorPerk(models.Model):
     common = models.CharField(max_length=15)
 
     # The Survivor id the perk comes from
-    survivor = models.ForeignKey(Survivor, on_delete=models.CASCADE)
-
-    # The dlc the Survivor comes from
-    dlc = models.ForeignKey(DLC, on_delete=models.CASCADE)
+    survivor_id = models.ForeignKey(Survivor, on_delete=models.CASCADE)
 
     # The discription of the Perk
     description = models.TextField()
@@ -78,11 +75,7 @@ class SurvivorPerk(models.Model):
     
     def getSurvivor(self):
         # Call that returns the survivor name who has the perk
-        return self.survivor
-    
-    def getDLC(self):
-        # returns dlc
-        return self.dlc
+        return self.survivor_id
     
     def getDescription(self):
         # returns perk description

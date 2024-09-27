@@ -1,0 +1,2 @@
+Because I'm lazy and don't want to create a model of the 5 current tables. The DLC table ties to both the Killer and Survivor table and gives information about if the perks are licensed. The Killer table ties to the Killer perks table. The Survivor table ties to the Surivivor perks table.
+Even though it would be easier to tie DLC to the Survivor perks and Killer Perks as well, it is much easier and forces the perks to be aligned with the dlc, licenses, and character they come from.

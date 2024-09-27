@@ -1,0 +1,2482 @@
+[
+    {
+        "model": "declassified.survivorperk",
+        "pk": 1,
+        "fields": {
+            "name": "Bitter Murmur",
+            "common": "Bitter Murmur",
+            "killer_id": 0,
+            "description": "Unlocks potential in one's aura reading ability. Each time a generator is fully repaired, Survivors within 16 meters of the completed generator will be revealed for 5 seconds. <br/>When the last generator is fully repaired, all the Survivors' auras are revealed for 5/7/10 seconds.</br>",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 2,
+        "fields": {
+            "name": "Deerstalker",
+            "common": "Deerstalker",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 3,
+        "fields": {
+            "name": "Distressing",
+            "common": "Distressing",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 4,
+        "fields": {
+            "name": "Hex: No One Escapes Death",
+            "common": "NOED",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 5,
+        "fields": {
+            "name": "Hex: Thrill of the Hunt",
+            "common": "Thrill of the Hunt",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 6,
+        "fields": {
+            "name": "Insidious",
+            "common": "Insidious",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 7,
+        "fields": {
+            "name": "Iron Grasp",
+            "common": "Iron Grasp",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 8,
+        "fields": {
+            "name": "Scourge Hook: Monstrous Shrine",
+            "common": "Monstrous Shrine",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 9,
+        "fields": {
+            "name": "Shattered Hope",
+            "common": "Shattered Hope",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 10,
+        "fields": {
+            "name": "Sloppy Butcher",
+            "common": "Sloppy",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 11,
+        "fields": {
+            "name": "Spies from the Shadows",
+            "common": "Spies from the Shadows",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 12,
+        "fields": {
+            "name": "Unrelenting",
+            "common": "Unrelenting",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 13,
+        "fields": {
+            "name": "Whispers",
+            "common": "Whispers",
+            "killer_id": 0,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 14,
+        "fields": {
+            "name": "Agitation",
+            "common": "Agitation",
+            "killer_id": 1,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 15,
+        "fields": {
+            "name": "Brutal Strength",
+            "common": "Brutal Strength",
+            "killer_id": 1,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 16,
+        "fields": {
+            "name": "Unnerving Presence",
+            "common": "Unnerving Presence",
+            "killer_id": 1,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 17,
+        "fields": {
+            "name": "Bloodhound",
+            "common": "Bloodhound",
+            "killer_id": 2,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 18,
+        "fields": {
+            "name": "Predator",
+            "common": "Predator",
+            "killer_id": 2,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 19,
+        "fields": {
+            "name": "Shadowborn",
+            "common": "Shadowborn",
+            "killer_id": 2,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 20,
+        "fields": {
+            "name": "Enduring",
+            "common": "Enduring",
+            "killer_id": 3,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 21,
+        "fields": {
+            "name": "Lightborn",
+            "common": "Lightborn",
+            "killer_id": 3,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 22,
+        "fields": {
+            "name": "Tinkerer",
+            "common": "Tinkerer",
+            "killer_id": 3,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 23,
+        "fields": {
+            "name": "A Nurse's Calling",
+            "common": "Nurse's Calling",
+            "killer_id": 4,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 24,
+        "fields": {
+            "name": "Stridor",
+            "common": "Stridor",
+            "killer_id": 4,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 25,
+        "fields": {
+            "name": "Thanatophobia",
+            "common": "Thanatophobia",
+            "killer_id": 4,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 26,
+        "fields": {
+            "name": "Dying Light",
+            "common": "Dying Light",
+            "killer_id": 5,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 27,
+        "fields": {
+            "name": "Play With Your Food",
+            "common": "Play With Your Food",
+            "killer_id": 5,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 28,
+        "fields": {
+            "name": "Save the Best for Last",
+            "common": "STBFL",
+            "killer_id": 5,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 29,
+        "fields": {
+            "name": "Hex: Devour Hope",
+            "common": "Devour Hope",
+            "killer_id": 6,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 30,
+        "fields": {
+            "name": "Hex: Ruin",
+            "common": "Ruin",
+            "killer_id": 6,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 31,
+        "fields": {
+            "name": "Hex: The Third Seal",
+            "common": "Third Seal",
+            "killer_id": 6,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 32,
+        "fields": {
+            "name": "Overcharge",
+            "common": "Overcharge",
+            "killer_id": 7,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 33,
+        "fields": {
+            "name": "Monitor & Abuse",
+            "common": "Monitor",
+            "killer_id": 7,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 34,
+        "fields": {
+            "name": "Overwhelming Presence",
+            "common": "Overwhelming Presence",
+            "killer_id": 7,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 35,
+        "fields": {
+            "name": "Beast of Prey",
+            "common": "Beast of Prey",
+            "killer_id": 8,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 36,
+        "fields": {
+            "name": "Hex: Huntress Lullaby",
+            "common": "Huntress Lullaby",
+            "killer_id": 8,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 37,
+        "fields": {
+            "name": "Territorial Imperative",
+            "common": "Territorial Imperative",
+            "killer_id": 8,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 38,
+        "fields": {
+            "name": "Barbecue & Chili",
+            "common": "Barbecue & Chili",
+            "killer_id": 9,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 39,
+        "fields": {
+            "name": "Franklin's Demise",
+            "common": "Franklin's Demise",
+            "killer_id": 9,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 40,
+        "fields": {
+            "name": "Knock Out",
+            "common": "Knock Out",
+            "killer_id": 9,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 41,
+        "fields": {
+            "name": "Blood Warden",
+            "common": "Blood Warden",
+            "killer_id": 10,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 42,
+        "fields": {
+            "name": "Fire Up",
+            "common": "Fire Up",
+            "killer_id": 10,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 43,
+        "fields": {
+            "name": "Remember Me",
+            "common": "Remember Me",
+            "killer_id": 10,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 44,
+        "fields": {
+            "name": "Scourge Hook: Hangman's Trick",
+            "common": "Hangman's Trick",
+            "killer_id": 11,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 45,
+        "fields": {
+            "name": "Make Your Choice",
+            "common": "Make Your Choice",
+            "killer_id": 11,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 46,
+        "fields": {
+            "name": "Surveillance",
+            "common": "Surveillance",
+            "killer_id": 11,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 47,
+        "fields": {
+            "name": "Bamboozle",
+            "common": "Bamboozle",
+            "killer_id": 12,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 48,
+        "fields": {
+            "name": "Coulrophobia",
+            "common": "Coulrophobia",
+            "killer_id": 12,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 49,
+        "fields": {
+            "name": "Pop Goes the Weasel",
+            "common": "Pop",
+            "killer_id": 12,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 50,
+        "fields": {
+            "name": "Hex: Haunted Ground",
+            "common": "Haunted Ground",
+            "killer_id": 13,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 51,
+        "fields": {
+            "name": "Rancor",
+            "common": "Rancor",
+            "killer_id": 13,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 52,
+        "fields": {
+            "name": "Spirit Fury",
+            "common": "Spirit Fury",
+            "killer_id": 13,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 53,
+        "fields": {
+            "name": "Discordance",
+            "common": "Discordance",
+            "killer_id": 14,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 54,
+        "fields": {
+            "name": "Iron Maiden",
+            "common": "Iron Maiden",
+            "killer_id": 14,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 55,
+        "fields": {
+            "name": "Mad Grit",
+            "common": "Mad Grit",
+            "killer_id": 14,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 56,
+        "fields": {
+            "name": "Corrupt Intervention",
+            "common": "Corrupt",
+            "killer_id": 15,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 57,
+        "fields": {
+            "name": "Dark Devotion",
+            "common": "Dark Devotion",
+            "killer_id": 15,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 58,
+        "fields": {
+            "name": "Infectious Fright",
+            "common": "Infectious",
+            "killer_id": 15,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 59,
+        "fields": {
+            "name": "Furtive Chase",
+            "common": "Furtive Chase",
+            "killer_id": 16,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 60,
+        "fields": {
+            "name": "I'm All Ears",
+            "common": "All Ears",
+            "killer_id": 16,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 61,
+        "fields": {
+            "name": "Thrilling Tremors",
+            "common": "Tremors",
+            "killer_id": 16,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 62,
+        "fields": {
+            "name": "Cruel Limits",
+            "common": "Limits",
+            "killer_id": 17,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 63,
+        "fields": {
+            "name": "Mindbreaker",
+            "common": "Mindbreaker",
+            "killer_id": 17,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 64,
+        "fields": {
+            "name": "Surge",
+            "common": "Surge",
+            "killer_id": 17,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 65,
+        "fields": {
+            "name": "Blood Echo",
+            "common": "Blood Echo",
+            "killer_id": 18,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 66,
+        "fields": {
+            "name": "Nemesis",
+            "common": "Nemesis",
+            "killer_id": 18,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 67,
+        "fields": {
+            "name": "Zanshin Tactics",
+            "common": "Zanshin Tactics",
+            "killer_id": 18,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 68,
+        "fields": {
+            "name": "Dead Man's Switch",
+            "common": "Dead Man's",
+            "killer_id": 19,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 69,
+        "fields": {
+            "name": "Gearhead",
+            "common": "Gearhead",
+            "killer_id": 19,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 70,
+        "fields": {
+            "name": "Hex: Retribution",
+            "common": "Retribution",
+            "killer_id": 19,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 71,
+        "fields": {
+            "name": "Deathbound",
+            "common": "Deathbound",
+            "killer_id": 20,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 72,
+        "fields": {
+            "name": "Forced Penance",
+            "common": "Penance",
+            "killer_id": 20,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 73,
+        "fields": {
+            "name": "Trail of Torment",
+            "common": "Trail",
+            "killer_id": 20,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 74,
+        "fields": {
+            "name": "Dragon's Grip",
+            "common": "Dragon's",
+            "killer_id": 21,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 75,
+        "fields": {
+            "name": "Hex: Blood Favor",
+            "common": "Blood Favor",
+            "killer_id": 21,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 76,
+        "fields": {
+            "name": "Hex: Undying",
+            "common": "Undying",
+            "killer_id": 21,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 77,
+        "fields": {
+            "name": "Hoarder",
+            "common": "Hoarder",
+            "killer_id": 22,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 78,
+        "fields": {
+            "name": "Oppression",
+            "common": "Oppression",
+            "killer_id": 22,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 79,
+        "fields": {
+            "name": "Coup de Grâce",
+            "common": "Coup",
+            "killer_id": 22,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 80,
+        "fields": {
+            "name": "Starstruck",
+            "common": "Starstruck",
+            "killer_id": 23,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 81,
+        "fields": {
+            "name": "Hex: Crowd Control",
+            "common": "Crowd Control",
+            "killer_id": 23,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 82,
+        "fields": {
+            "name": "No Way Out",
+            "common": "No Way Out",
+            "killer_id": 23,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 83,
+        "fields": {
+            "name": "Lethal Pursuer",
+            "common": "Lethal",
+            "killer_id": 24,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 84,
+        "fields": {
+            "name": "Hysteria",
+            "common": "Hysteria",
+            "killer_id": 24,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 85,
+        "fields": {
+            "name": "Eruption",
+            "common": "Eruption",
+            "killer_id": 24,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 86,
+        "fields": {
+            "name": "Deadlock",
+            "common": "Deadlock",
+            "killer_id": 25,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 87,
+        "fields": {
+            "name": "Hex: Plaything",
+            "common": "Plaything",
+            "killer_id": 25,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 88,
+        "fields": {
+            "name": "Scourge Hook: Gift of Pain",
+            "common": "Gift of Pain",
+            "killer_id": 25,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 89,
+        "fields": {
+            "name": "Grim Embrace",
+            "common": "Grim Embrace",
+            "killer_id": 26,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 90,
+        "fields": {
+            "name": "Scourge Hook: Pain Resonance",
+            "common": "Pain Resonance",
+            "killer_id": 26,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 91,
+        "fields": {
+            "name": "Hex: Pentimento",
+            "common": "Pentimento",
+            "killer_id": 26,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 92,
+        "fields": {
+            "name": "Scourge Hook: Floods of Rage",
+            "common": "Floods of Rage",
+            "killer_id": 27,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 93,
+        "fields": {
+            "name": "Call of Brine",
+            "common": "Call of Brine",
+            "killer_id": 27,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 94,
+        "fields": {
+            "name": "Merciless Storm",
+            "common": "Merciless Storm",
+            "killer_id": 27,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 95,
+        "fields": {
+            "name": "Dissolution",
+            "common": "Dissolution",
+            "killer_id": 28,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 96,
+        "fields": {
+            "name": "Darkness Revealed",
+            "common": "Darkness Revealed",
+            "killer_id": 28,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 97,
+        "fields": {
+            "name": "Septic Touch",
+            "common": "Septic Touch",
+            "killer_id": 28,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 98,
+        "fields": {
+            "name": "Superior Anatomy",
+            "common": "Superior Anatomy",
+            "killer_id": 29,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 99,
+        "fields": {
+            "name": "Awakened Awareness",
+            "common": "Awakened Awareness",
+            "killer_id": 29,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 100,
+        "fields": {
+            "name": "Terminus",
+            "common": "Terminus",
+            "killer_id": 29,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 101,
+        "fields": {
+            "name": "Nowhere to Hide",
+            "common": "Nowhere to Hide",
+            "killer_id": 30,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 102,
+        "fields": {
+            "name": "Hex: Face the Darkness",
+            "common": "Face the Darkness",
+            "killer_id": 30,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 103,
+        "fields": {
+            "name": "Hubris",
+            "common": "Hubris",
+            "killer_id": 30,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 104,
+        "fields": {
+            "name": "Game Afoot",
+            "common": "Game Afoot",
+            "killer_id": 31,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 105,
+        "fields": {
+            "name": "THWACK!",
+            "common": "THWACK!",
+            "killer_id": 31,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 106,
+        "fields": {
+            "name": "Leverage",
+            "common": "Leverage",
+            "killer_id": 31,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 107,
+        "fields": {
+            "name": "Genetic Limits",
+            "common": "Genetic Limits",
+            "killer_id": 32,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 108,
+        "fields": {
+            "name": "Forced Hesitation",
+            "common": "Forced Hesitation",
+            "killer_id": 32,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 109,
+        "fields": {
+            "name": "Machine Learning",
+            "common": "Machine Learning",
+            "killer_id": 32,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 110,
+        "fields": {
+            "name": "Ultimate Weapon",
+            "common": "Ultimate Weapon",
+            "killer_id": 33,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 111,
+        "fields": {
+            "name": "Rapid Brutality",
+            "common": "Rapid Brutality",
+            "killer_id": 33,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 112,
+        "fields": {
+            "name": "Alien Instinct",
+            "common": "Alien Instinct",
+            "killer_id": 33,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 113,
+        "fields": {
+            "name": "Hex: Two Can Play",
+            "common": "Two Can Play",
+            "killer_id": 34,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 114,
+        "fields": {
+            "name": "Friends ‘Til the End",
+            "common": "Friends ‘Til the End",
+            "killer_id": 34,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 115,
+        "fields": {
+            "name": "Batteries Included",
+            "common": "Batteries Included",
+            "killer_id": 34,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 116,
+        "fields": {
+            "name": "Unbound",
+            "common": "Unbound",
+            "killer_id": 35,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 117,
+        "fields": {
+            "name": "Unforeseen",
+            "common": "Unforeseen",
+            "killer_id": 35,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 118,
+        "fields": {
+            "name": "Undone",
+            "common": "Undone",
+            "killer_id": 35,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 119,
+        "fields": {
+            "name": "Weave Attunement",
+            "common": "Weave Attunement",
+            "killer_id": 36,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 120,
+        "fields": {
+            "name": "Languid Touch",
+            "common": "Languid Touch",
+            "killer_id": 36,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 121,
+        "fields": {
+            "name": "Dark Arrogance",
+            "common": "Dark Arrogance",
+            "killer_id": 36,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 122,
+        "fields": {
+            "name": "Hex: Wretched Fate",
+            "common": "Wretched Fate",
+            "killer_id": 37,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 123,
+        "fields": {
+            "name": "Human Greed",
+            "common": "Human Greed",
+            "killer_id": 37,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    },
+    {
+        "model": "declassified.survivorperk",
+        "pk": 124,
+        "fields": {
+            "name": "Dominance",
+            "common": "Dominance",
+            "killer_id": 37,
+            "description": "",
+            "use_case": "",
+            "best_pair": [],
+            "best_exp": "",
+            "neutral_pair": [],
+            "neutral_exp": "",
+            "bad_pair": [],
+            "bad_exp": "",
+            "rating": "",
+            "community_rating": "",
+            "site_rating": ""
+        }
+    }
+]

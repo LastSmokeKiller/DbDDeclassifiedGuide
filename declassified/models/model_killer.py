@@ -19,11 +19,23 @@ class Killer(models.Model):
     # Nickname of the Killer
     nickname = models.CharField(max_length=15)
 
+    # Killer Power Description
+    power = models.TextField()
+
     # DLC id that the Killer comes from
     dlc_id = models.ForeignKey(DLC,on_delete=models.CASCADE)
 
     # List of perks that belong to the killer
     killer_perks = models.ManyToManyField(KillerPerk)
+
+    # The rating of this perk from other data sources
+    rating = models.DecimalField()
+
+    # The rating of this perk from community members (calculated and displayed out of 5)
+    community_rating = models.FloatField()
+
+    # The personal rating of the Survival Guide creator (S to F tier)
+    site_rating = models.IntegerField()
 
     def __str__(self):
         # returns name of killer
@@ -41,14 +53,9 @@ class Killer(models.Model):
         # returns the id of the related dlc
         return self.dlc_id
     
-    # The rating of this perk from other data sources
-    rating = models.DecimalField()
-
-    # The rating of this perk from community members (calculated and displayed out of 5)
-    community_rating = models.DateField()
-
-    # The personal rating of the Survival Guide creator (S to F tier)
-    site_rating = models.IntegerField()
+    def getPower(self):
+        return self.power
+    
     
     def getKillerPerks(self):
         # returns the list of killer perks related to the id

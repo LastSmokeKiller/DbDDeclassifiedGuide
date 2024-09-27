@@ -22,9 +22,6 @@ class KillerPerk(models.Model):
     # The Survivor id the perk comes from
     killer_id = models.ForeignKey(Killer, on_delete=models.CASCADE)
 
-    # The dlc the Survivor comes from
-    dlc_id = models.ForeignKey(DLC, on_delete=models.CASCADE)
-
     # The discription of the Perk
     description = models.TextField()
 
@@ -79,10 +76,6 @@ class KillerPerk(models.Model):
     def getKiller(self):
         # Call that returns the survivor name who has the perk
         return self.killer_id
-    
-    def getDLC(self):
-        # returns dlc
-        return self.dlc_id
     
     def getDescription(self):
         # returns perk description

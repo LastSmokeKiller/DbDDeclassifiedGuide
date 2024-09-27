@@ -7,9 +7,11 @@
             "name":"Base Game",
             "survivors":[1,2,3,4],
             "killers": [1,2,3],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "licensed": false,
+            "free": true,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -20,9 +22,11 @@
             "name":"The Last Breath",
             "survivors":[5],
             "killers":[4],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "licensed": false,
+            "free": true,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -33,9 +37,11 @@
             "name":"Halloween",
             "survivors":[6],
             "killers":[5],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -46,9 +52,11 @@
             "name":"Of Flesh and Mud",
             "survivors":[7],
             "killers":[6],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -56,12 +64,14 @@
         "pk": 5,
         "fields":
         {
-            "name":"Spark of Madness",
+            "name":"Left Behind",
             "survivors":[8],
-            "killers":[7],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[],
+            "licensed": true,
+            "free": true,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -69,12 +79,14 @@
         "pk": 6,
         "fields":
         {
-            "name":"A Lullaby for the Dark",
+            "name":"Spark of Madness",
             "survivors":[9],
-            "killers":[8],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[7],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -82,12 +94,14 @@
         "pk": 7,
         "fields":
         {
-            "name":"Leatherface",
-            "survivors":[],
-            "killers":[9],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"A Lullaby for the Dark",
+            "survivors":[10],
+            "killers":[8],
+            "licensed": false,
+            "free": true,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -95,12 +109,14 @@
         "pk": 8,
         "fields":
         {
-            "name":"A Nightmare on Elm Street",
-            "survivors":[10],
-            "killers":[10],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Leatherface",
+            "survivors":[],
+            "killers":[9],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
         }    
     },
     {
@@ -108,12 +124,14 @@
         "pk": 9,
         "fields":
         {
-            "name":"Saw",
+            "name":"A Nightmare on Elm Street",
             "survivors":[11],
-            "killers":[11],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "killers":[10],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -121,12 +139,14 @@
         "pk": 10,
         "fields":
         {
-            "name":"Curtain Call",
+            "name":"Saw",
             "survivors":[12],
-            "killers":[12],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[11],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -134,12 +154,14 @@
         "pk": 11,
         "fields":
         {
-            "name":"Shattered Bloodline",
+            "name":"Curtain Call",
             "survivors":[13],
-            "killers":[13],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[12],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -147,12 +169,14 @@
         "pk": 12,
         "fields":
         {
-            "name":"Darkness Among Us",
+            "name":"Shattered Bloodline",
             "survivors":[14],
-            "killers":[14],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[13],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -160,12 +184,14 @@
         "pk": 13,
         "fields":
         {
-            "name":"Demise of The Faithful",
+            "name":"Darkness Among Us",
             "survivors":[15],
-            "killers":[15],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[14],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -173,12 +199,14 @@
         "pk": 14,
         "fields":
         {
-            "name":"Ash vs. Evil Dead",
+            "name":"Demise of The Faithful",
             "survivors":[16],
-            "killers":[],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "killers":[15],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -186,12 +214,14 @@
         "pk": 15,
         "fields":
         {
-            "name":"Ghost Face",
-            "survivors":[],
-            "killers":[16],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Ash vs. Evil Dead",
+            "survivors":[17],
+            "killers":[],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
         }    
     },
     {
@@ -199,12 +229,14 @@
         "pk": 16,
         "fields":
         {
-            "name":"Stranger Things",
-            "survivors":[17,18],
-            "killers":[17],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Ghost Face",
+            "survivors":[],
+            "killers":[16],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
         }    
     },
     {
@@ -212,12 +244,14 @@
         "pk": 17,
         "fields":
         {
-            "name":"Cursed Legacy",
-            "survivors":[19],
-            "killers":[18],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Stranger Things",
+            "survivors":[18,19],
+            "killers":[17],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 11.99
+
         }    
     },
     {
@@ -225,12 +259,14 @@
         "pk": 18,
         "fields":
         {
-            "name":"Chains of Hate",
+            "name":"Cursed Legacy",
             "survivors":[20],
-            "killers":[19],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[18],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -238,12 +274,14 @@
         "pk": 19,
         "fields":
         {
-            "name":"Silent Hill",
+            "name":"Chains of Hate",
             "survivors":[21],
-            "killers":[20],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "killers":[19],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -251,12 +289,14 @@
         "pk": 20,
         "fields":
         {
-            "name":"Descend Beyond",
+            "name":"Silent Hill",
             "survivors":[22],
-            "killers":[21],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[20],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -264,12 +304,14 @@
         "pk": 21,
         "fields":
         {
-            "name":"A Binding of Kin",
+            "name":"Descend Beyond",
             "survivors":[23],
-            "killers":[22],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[21],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -277,12 +319,14 @@
         "pk": 22,
         "fields":
         {
-            "name":"All-Kill",
+            "name":"A Binding of Kin",
             "survivors":[24],
-            "killers":[23],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "killers":[22],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -290,12 +334,14 @@
         "pk": 23,
         "fields":
         {
-            "name":"Resident Evil",
-            "survivors":[25,26],
-            "killers":[24],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"All-Kill",
+            "survivors":[25],
+            "killers":[23],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -303,12 +349,14 @@
         "pk": 24,
         "fields":
         {
-            "name":"Hellraiser",
-            "survivors":[],
-            "killers":[25],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Resident Evil",
+            "survivors":[26,27],
+            "killers":[24],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 11.99
+
         }    
     },
     {
@@ -316,12 +364,14 @@
         "pk": 25,
         "fields":
         {
-            "name":"Hour of the Witch",
-            "survivors":[27],
-            "killers":[],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Hellraiser",
+            "survivors":[],
+            "killers":[25],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
         }    
     },
     {
@@ -329,12 +379,14 @@
         "pk": 26,
         "fields":
         {
-            "name":"Portrait of a Murder",
-            "survivors":[26],
-            "killers":[26],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Hour of the Witch",
+            "survivors":[28],
+            "killers":[],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -342,12 +394,14 @@
         "pk": 27,
         "fields":
         {
-            "name":"Sadako Rising",
-            "survivors":[27],
-            "killers":[27],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Portrait of a Murder",
+            "survivors":[29],
+            "killers":[26],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -355,12 +409,14 @@
         "pk": 28,
         "fields":
         {
-            "name":"Roots of Dread",
-            "survivors":[28],
-            "killers":[28],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Sadako Rising",
+            "survivors":[30],
+            "killers":[27],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -368,12 +424,14 @@
         "pk": 29,
         "fields":
         {
-            "name":"Resident Evil: Project W",
-            "survivors":[29,30],
-            "killers":[29],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Roots of Dread",
+            "survivors":[31],
+            "killers":[28],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -381,12 +439,14 @@
         "pk": 30,
         "fields":
         {
-            "name":"Forged in Fog",
-            "survivors":[31],
-            "killers":[30],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Resident Evil: Project W",
+            "survivors":[32,33],
+            "killers":[29],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 11.99
+
         }    
     },
     {
@@ -394,12 +454,14 @@
         "pk": 31,
         "fields":
         {
-            "name":"Tools of Torment",
-            "survivors":[32],
-            "killers":[31],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Forged in Fog",
+            "survivors":[34],
+            "killers":[30],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -407,12 +469,14 @@
         "pk": 32,
         "fields":
         {
-            "name":"End Transmission",
-            "survivors":[33],
-            "killers":[32],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Tools of Torment",
+            "survivors":[35,36],
+            "killers":[31],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": false,
+            "dollar_cost": 0.0
+
         }    
     },
     {
@@ -420,12 +484,14 @@
         "pk": 33,
         "fields":
         {
-            "name":"Nicolas Cage",
-            "survivors":[34],
-            "killers":[],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"End Transmission",
+            "survivors":[37],
+            "killers":[32],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -433,12 +499,14 @@
         "pk": 34,
         "fields":
         {
-            "name":"Alien",
-            "survivors":[35],
-            "killers":[33],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Nicolas Cage",
+            "survivors":[38],
+            "killers":[],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 9.99
+
         }    
     },
     {
@@ -446,12 +514,14 @@
         "pk": 35,
         "fields":
         {
-            "name":"Chucky",
-            "survivors":[],
-            "killers":[34],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Alien",
+            "survivors":[39],
+            "killers":[33],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 11.99
+
         }    
     },
     {
@@ -459,12 +529,14 @@
         "pk": 36,
         "fields":
         {
-            "name":"Alan Wake",
-            "survivors":[36],
-            "killers":[],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Chucky",
+            "survivors":[],
+            "killers":[34],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
         }    
     },
     {
@@ -472,12 +544,14 @@
         "pk": 37,
         "fields":
         {
-            "name":"All Things Wicked",
-            "survivors":[37],
-            "killers":[35],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": false
+            "name":"Alan Wake",
+            "survivors":[40],
+            "killers":[],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
         }    
     },
     {
@@ -485,12 +559,14 @@
         "pk": 38,
         "fields":
         {
-            "name":"Dungeons & Dragons",
-            "survivors":[38],
-            "killers":[36],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"All Things Wicked",
+            "survivors":[41],
+            "killers":[35],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -498,12 +574,14 @@
         "pk": 39,
         "fields":
         {
-            "name":"Tomb Raider",
-            "survivors":[39],
-            "killers":[],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "name":"Dungeons & Dragons",
+            "survivors":[42],
+            "killers":[36],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
         }    
     },
     {
@@ -511,12 +589,44 @@
         "pk": 40,
         "fields":
         {
+            "name":"Tomb Raider",
+            "survivors":[43],
+            "killers":[],
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 4.99
+
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 41,
+        "fields":
+        {
             "name":"Castlevania",
-            "survivors":[40],
+            "survivors":[44],
             "killers":[37],
-            "survivor_perks":[],
-            "killer_perks": [],
-            "licensed": true
+            "licensed": true,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 7.99
+
+        }    
+    },
+    {
+        "model": "declassified.dlc",
+        "pk": 2000,
+        "fields":
+        {
+            "name":"Terror Expansion Pack",
+            "survivors":[],
+            "killers":[6,7,8],
+            "licensed": false,
+            "free": false,
+            "dlc_buy": true,
+            "dollar_cost": 24.99
+
         }    
     }
 ]

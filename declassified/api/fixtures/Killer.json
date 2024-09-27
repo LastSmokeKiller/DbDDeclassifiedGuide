@@ -1,0 +1,572 @@
+[
+    {
+        "model": "declassified.survivor",
+        "pk": 0,
+        "fields": 
+        {
+            "name": "Base Game",
+            "nickname":"Base Game",
+            "power": "",
+            "dlc_id": 1,
+            "killer_perks":[1,2,3,4,5,6,7,8,9,10,11,12,13],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 1,
+        "fields": 
+        {
+            "name": "The Trapper",
+            "nickname":"The Trapper",
+            "power": "",
+            "dlc_id": 1,
+            "killer_perks":[14,15,16],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 2,
+        "fields": 
+        {
+            "name": "The Wraith",
+            "nickname":"The Wraith",
+            "power": "",
+            "dlc_id": 1,
+            "killer_perks":[17,18,19],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 3,
+        "fields": 
+        {
+            "name": "The Hillbilly",
+            "nickname":"The Hillbilly",
+            "power": "",
+            "dlc_id": 1,
+            "killer_perks":[20,21,22],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 4,
+        "fields": 
+        {
+            "name": "The Nurse",
+            "nickname":"The Nurse",
+            "power": "",
+            "dlc_id": 2,
+            "killer_perks":[23,24,25],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 5,
+        "fields": 
+        {
+            "name": "The Shape",
+            "nickname":"Michael Myers",
+            "power": "",
+            "dlc_id": 3,
+            "killer_perks":[26,27,28],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 6,
+        "fields": 
+        {
+            "name": "The Hag",
+            "nickname":"The Hag",
+            "power": "",
+            "dlc_id": 4,
+            "killer_perks":[29,30,31],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 7,
+        "fields": 
+        {
+            "name": "The Doctor",
+            "nickname":"The Doctor",
+            "power": "",
+            "dlc_id": 6,
+            "killer_perks":[32,33,34],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 8,
+        "fields": 
+        {
+            "name": "The Huntress",
+            "nickname":"The Huntress",
+            "power": "",
+            "dlc_id": 7,
+            "killer_perks":[35,36,37],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 9,
+        "fields": 
+        {
+            "name": "The Cannibal",
+            "nickname":"Leatherface",
+            "power": "",
+            "dlc_id": 8,
+            "killer_perks":[38,39,40],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 10,
+        "fields": 
+        {
+            "name": "The Nightmare",
+            "nickname":"Freddy Kruger",
+            "power": "",
+            "dlc_id": 9,
+            "killer_perks":[41,42,43],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 11,
+        "fields": 
+        {
+            "name": "The Pig",
+            "nickname":"The Pig",
+            "power": "",
+            "dlc_id": 10,
+            "killer_perks":[44,45,46],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 12,
+        "fields": 
+        {
+            "name": "The Clown",
+            "nickname":"The Clown",
+            "power": "",
+            "dlc_id": 11,
+            "killer_perks":[47,48,49],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 13,
+        "fields": 
+        {
+            "name": "The Spirit",
+            "nickname":"The Spirit",
+            "power": "",
+            "dlc_id": 12,
+            "killer_perks":[50,51,52],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 14,
+        "fields": 
+        {
+            "name": "The Legion",
+            "nickname":"The Legion",
+            "power": "",
+            "dlc_id": 13,
+            "killer_perks":[53,54,55],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 15,
+        "fields": 
+        {
+            "name": "The Plague",
+            "nickname":"The Plague",
+            "power": "",
+            "dlc_id": 14,
+            "killer_perks":[56,57,58],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 16,
+        "fields": 
+        {
+            "name": "The Ghost Face",
+            "nickname":"Ghost Face",
+            "power": "",
+            "dlc_id": 16,
+            "killer_perks":[59,60,61],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 17,
+        "fields": 
+        {
+            "name": "The Demogorgon",
+            "nickname":"The Demogorgon",
+            "power": "",
+            "dlc_id": 17,
+            "killer_perks":[62,63,64],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 18,
+        "fields": 
+        {
+            "name": "The Oni",
+            "nickname":"The Oni",
+            "power": "",
+            "dlc_id": 18,
+            "killer_perks":[65,66,67],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 19,
+        "fields": 
+        {
+            "name": "The Deathslinger",
+            "nickname":"The Deathslinger",
+            "power": "",
+            "dlc_id": 19,
+            "killer_perks":[68,69,70],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 20,
+        "fields": 
+        {
+            "name": "The Executioner",
+            "nickname":"Pyramid Head",
+            "power": "",
+            "dlc_id": 20,
+            "killer_perks":[71,72,73],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 21,
+        "fields": 
+        {
+            "name": "The Blight",
+            "nickname":"The Blight",
+            "power": "",
+            "dlc_id": 21,
+            "killer_perks":[74,75,76],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 22,
+        "fields": 
+        {
+            "name": "The Twins",
+            "nickname":"The Twins",
+            "power": "",
+            "dlc_id": 22,
+            "killer_perks":[77,78,79],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 23,
+        "fields": 
+        {
+            "name": "The Trickster",
+            "nickname":"The Trickster",
+            "power": "",
+            "dlc_id": 23,
+            "killer_perks":[80,81,82],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 24,
+        "fields": 
+        {
+            "name": "The Nemesis",
+            "nickname":"Nemesis",
+            "power": "",
+            "dlc_id": 24,
+            "killer_perks":[83,84,85],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 25,
+        "fields": 
+        {
+            "name": "The Cenobite",
+            "nickname":"Pinhead",
+            "power": "",
+            "dlc_id": 25,
+            "killer_perks":[86,87,88],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 26,
+        "fields": 
+        {
+            "name": "The Artist",
+            "nickname":"The Artist",
+            "power": "",
+            "dlc_id": 27,
+            "killer_perks":[89,90,91],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 27,
+        "fields": 
+        {
+            "name": "The Onryō",
+            "nickname":"Sadako",
+            "power": "",
+            "dlc_id": 28,
+            "killer_perks":[92,93,94],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 28,
+        "fields": 
+        {
+            "name": "The Dredge",
+            "nickname":"The Dredge",
+            "power": "",
+            "dlc_id": 29,
+            "killer_perks":[95,96,97],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 29,
+        "fields": 
+        {
+            "name": "The Mastermind",
+            "nickname":"Wesker",
+            "power": "",
+            "dlc_id": 30,
+            "killer_perks":[98,99,100],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 30,
+        "fields": 
+        {
+            "name": "The Knight",
+            "nickname":"The Knight",
+            "power": "",
+            "dlc_id": 31,
+            "killer_perks":[101,102,103],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 31,
+        "fields": 
+        {
+            "name": "The Skull Merchant",
+            "nickname":"The Skull Merchant",
+            "power": "",
+            "dlc_id": 32,
+            "killer_perks":[104,105,106],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 32,
+        "fields": 
+        {
+            "name": "The Singularity",
+            "nickname":"The Singularity",
+            "power": "",
+            "dlc_id": 33,
+            "killer_perks":[107,108,109],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 33,
+        "fields": 
+        {
+            "name": "The Xenomorph",
+            "nickname":"The Xenomorph",
+            "power": "",
+            "dlc_id": 35,
+            "killer_perks":[110,111,112],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 34,
+        "fields": 
+        {
+            "name": "The Good Guy",
+            "nickname":"Chucky",
+            "power": "",
+            "dlc_id": 36,
+            "killer_perks":[113,114,115],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 35,
+        "fields": 
+        {
+            "name": "The Unknown",
+            "nickname":"The Unknown",
+            "power": "",
+            "dlc_id": 38,
+            "killer_perks":[116,117,118],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 36,
+        "fields": 
+        {
+            "name": "The Lich",
+            "nickname":"Vecna",
+            "power": "",
+            "dlc_id": 39,
+            "killer_perks":[119,120,121],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    },
+    {
+        "model": "declassified.survivor",
+        "pk": 37,
+        "fields": 
+        {
+            "name": "The Dark Lord",
+            "nickname":"Dracula",
+            "power": "",
+            "dlc_id": 41,
+            "killer_perks":[122,123,124],
+            "rating": 0.0,
+            "community_rating": 0.0,
+            "site_rating": 0
+        }
+    }
+]

@@ -24,14 +24,17 @@ class DLC(models.Model):
     # The killer in the DLC
     killers = models.ForeignKey(Killer, on_delete=models.CASCADE)
 
-    # The list of survivor perks in the DLC
-    survivor_perks = models.ManyToManyField(SurvivorPerk)
-
-    # The list of killer perks in the DLC
-    killer_perks = models.ManyToManyField(KillerPerk)
-
     # If the chapter is license/paid for
     licensed = models.BooleanField(default=False)
+
+    # Is this dlc free with the game
+    free = models.BooleanField(default=False)
+
+    # Can this dlc still be purchased
+    dlc_buy = models.BooleanField(default=True)
+
+    # the cost of real money for dlc
+    dollar_cost = models.FloatField()
 
     def __str__(self):
         return self.name
@@ -46,13 +49,6 @@ class DLC(models.Model):
                 list.append(survivors.id)
         return list
     
-    def getSurvivorPerks(self):
-        list = []
-        for survivorPerks in self.survivor_perks.all():
-            if survivorPerks.id not in list:
-                list.append(survivorPerks.id)
-        return list
-    
     def getKiller(self):
         list = []
         for killers in self.killers.all():
@@ -60,12 +56,8 @@ class DLC(models.Model):
                 list.append(killers.id)
         return list
     
-    def getKillerPerks(self):
-        list = []
-        for killerPerks in self.killer_perks.all():
-            if killerPerks.id not in list:
-                list.append(killerPerks.id)
-        return list
-    
     def getLicensed(self):
         return self.licensed
+    
+    def getFree(self):
+        return self.free
