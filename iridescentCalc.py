@@ -1,5 +1,4 @@
 
-
 """
 This is the class for the iridescent calculator.
 This class gathers the user's current level,
@@ -71,7 +70,7 @@ class iridescentCalc():
             elif tempcurlvl >= 49:
                 iriamt = 300
                 xp = 4200
-
+            # print("current lvl = " + str(tempcurlvl))
             if self.xpon : tempxpneeded += xp
             tempcuriri += iriamt
             if(tempcurlvl < 99):
@@ -79,7 +78,7 @@ class iridescentCalc():
             else:
                 tempcurlvl = 1
             templvlneeded += 1
-            # print("current lvl = " + str(tempcurlvl))
+            # print("updated lvl = " + str(tempcurlvl))
             # print("current lvl needed = " + str(templvlneeded))
             # if self.xpon:
             #     print("current xp needed = " + str(tempxpneeded))
@@ -97,7 +96,7 @@ class iridescentCalc():
         return self.irileft
             
 
-calc1 = iridescentCalc(42,300,150,500,False)
-print("Levels needed to get needed Iridescent Shards = " + str(calc1.CalculateLvl()))
-print("Iridescent Shards left over " + str(calc1.irileft))
-if(calc1.xpon): print("XP needed for iridescent shards " + str(calc1.xpneeded))
+# calc1 = iridescentCalc(42,300,150,500,False)
+# print("Levels needed to get needed Iridescent Shards = " + str(calc1.CalculateLvl()))
+# print("Iridescent Shards left over " + str(calc1.irileft))
+# if(calc1.xpon): print("XP needed for iridescent shards " + str(calc1.xpneeded))

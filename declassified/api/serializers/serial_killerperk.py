@@ -1,12 +1,12 @@
 from rest_framework import serializers
-from declassified.models.model_survivorperk import SurvivorPerk
+from declassified.models.model_killerperk import KillerPerk
 
-class SurvivorPerkSerializer(serializers.ModelSerializer):
+class SerializerKillerPerk(serializers.ModelSerializer):
     class Meta:
-        model = SurvivorPerk
-        fields = ['id','name','common','survivor_id','description'
+        model = KillerPerk
+        fields = ['id','name','common','killer_id','description'
                   ,'use_case','best_pair','best_exp','neutral_pair','neutral_exp','bad_pair','bad_exp'
                   ,'rating','community_rating','site_rating']
-        read_only_fields = ['id','name','common','survivor_id','description'
+        read_only_fields = ['id','name','common','killer_id','description'
                   ,'use_case','best_pair','best_exp','neutral_pair','neutral_exp','bad_pair','bad_exp'
                   ,'rating','site_rating']
