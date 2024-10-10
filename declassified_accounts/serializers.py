@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from declassified_api import models
+from declassified_accounts import models
 
 class HelloSerializer(serializers.Serializer):
     """Serializers a name field for testing our APIView"""

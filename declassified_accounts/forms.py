@@ -4,6 +4,8 @@ from django.contrib.auth import get_user_model
 from django.contrib.admin.widgets import FilteredSelectMultiple
 from django.contrib.auth.models import Group
 
+from declassified.models.model_iridescentcalc import IridescentCalc
+
 
 User = get_user_model()
 
@@ -39,3 +41,14 @@ class GroupAdminForm(forms.ModelForm):
         # save many-to-many data
         self.save_m2m()
         return instance
+    
+class IridescentCalcForm(forms.ModelForm):
+    current_level = forms.IntegerField()
+    current_iridescent_shards = forms.IntegerField()
+    current_iridescent_shards_needed = forms.IntegerField()
+    current_xp = forms.IntegerField()
+    xpon = True
+
+    class Meta:
+        model = IridescentCalc
+        fields = ('current_level', 'current_iridescent_shards', 'current_iridescent_shards_needed', 'current_xp', 'xpon')

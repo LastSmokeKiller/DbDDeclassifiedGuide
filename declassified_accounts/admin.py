@@ -7,7 +7,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.auth.forms import ReadOnlyPasswordHashField
 from .forms import GroupAdminForm
 
-from declassified_api.models import User, Profile
+from declassified_accounts.models import User, Profile
 
 
 class UserCreationForm(forms.ModelForm):

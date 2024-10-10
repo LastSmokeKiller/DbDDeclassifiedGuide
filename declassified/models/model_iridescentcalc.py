@@ -1,3 +1,4 @@
+from django.db import models
 
 """
 This is the class for the iridescent calculator.
@@ -11,18 +12,24 @@ iridescent shard through xp into account, this
 cannot be used with rewards given through the shop
 or through the Tome because those cannot be individually tracked.
 """
-class iridescentCalc():
+class IridescentCalc(models.Model):
 
-    lvlneeded = 0
-    irileft = 0
-    xpneeded = 0
+    level_needed = 0
+    iridescent_left = 0
+    xp_needed = 0
+    current_level = models.IntegerField()
+    current_iridescent = models.IntegerField()
+    currrent_xp = models.IntegerField()
+    iridescent_needed = models.IntegerField()
+    xpon = models.BooleanField()
 
-    def __init__(self,curlvl, curiri, curxp, irineeded, xpon):
-        self.curlvl = curlvl
-        self.curiri = curiri
-        self.irineeded = irineeded
+
+    def create_iri_calc(self,current_level, current_iridescent, currrent_xp, iridescent_needed, xpon):
+        self.current_level = current_level
+        self.current_iridescent = current_iridescent
+        self.iridescent_needed = iridescent_needed
         if(xpon):
-            self.curxp = curxp
+            self.currrent_xp = currrent_xp
         else: self.curxp = 0
         self.xpon = xpon
 
