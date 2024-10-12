@@ -78,7 +78,15 @@ class Profile(models.Model):
     user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
 
     gameplay_hours =  models.IntegerField(max_length=100000000, default=0)
-    profile_picture = models.ImageField(null=True, blank=True, upload='img\profile', default='Meg.jpg')
+    profile_picture = models.ImageField(null=True, blank=True, upload_to='img\profile', default='Meg.jpg')
+
+
+    def get_profile_picture(self):
+        return self.profile_picture
+
+    class Meta:
+        verbose_name = 'User Profile'
+        verbose_name_plural = 'User Profiles'
 
     """Methods allow for the updating of files to our database for the profile pictures."""
     @receiver(post_save, sender=User)

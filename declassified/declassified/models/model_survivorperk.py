@@ -18,7 +18,7 @@ class SurvivorPerk(models.Model):
     common = models.CharField(max_length=15)
 
     # The Survivor id the perk comes from
-    # survivor_id = models.ForeignKey(Survivor, on_delete=models.CASCADE)
+    survivor_id = models.ForeignKey('Survivor', on_delete=models.CASCADE)
 
     # The discription of the Perk
     description = models.TextField()

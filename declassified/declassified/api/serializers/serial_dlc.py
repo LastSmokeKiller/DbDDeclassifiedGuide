@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from dbdeclassified.models import DLC
+from declassified.models import DLC
 
 class DLCSerializer(serializers.ModelSerializer):
     class Meta:

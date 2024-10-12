@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from dbdeclassified.models import IridescentCalc
+from declassified.models import IridescentCalc
 
 
 class IridescentCalcSerializer(serializers.ModelSerializer):

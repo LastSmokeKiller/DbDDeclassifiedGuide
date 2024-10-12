@@ -11,7 +11,7 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.settings import api_settings
 from rest_framework.permissions import IsAuthenticated
 
-from dbdeclassified import serializers
+from declassified import serializers
 from dbdeclassified import models
 from dbdeclassified import permissions
 from .forms import IriCalcForm

@@ -18,7 +18,7 @@ class Survivor(models.Model):
     # Nickname of the Survivor
     nickname = models.CharField(max_length=15)
 
-    # dlc_id = models.ForeignKey('DLC', blank=True)
+    dlc_id = models.ForeignKey('DLC', on_delete=models.CASCADE)
 
     survivor_perks = models.ManyToManyField(SurvivorPerk)
 

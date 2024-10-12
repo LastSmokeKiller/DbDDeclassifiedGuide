@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from dbdeclassified.models import Killer
+from declassified.models import Killer
 
 class KillerSerializer(serializers.ModelSerializer):
     class Meta:

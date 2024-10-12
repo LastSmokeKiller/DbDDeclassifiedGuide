@@ -1,5 +1,6 @@
-from .models.model_survivorperk import SurvivorPerk
+from declassified.models.model_survivorperk import SurvivorPerk
 from rest_framework import serializers
+from dbdeclassified.models import User, Profile
 
 
 class HelloSerializer(serializers.Serializer):
@@ -10,7 +11,7 @@ class UserSerializer(serializers.ModelSerializer):
     """Serializers a user object"""
 
     class Meta:
-        model = models.User
+        model = User
         fields = (
             'id',
             'email',
@@ -24,7 +25,7 @@ class UserSerializer(serializers.ModelSerializer):
             }
         }
 
-        
+
 class SurvivorPerkSerializer(serializers.ModelSerializer):
     class Meta:
         model = SurvivorPerk

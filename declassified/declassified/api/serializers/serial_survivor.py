@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from dbdeclassified.models import Survivor
+from declassified.models import Survivor
 
 class SurvivorSerializer(serializers.ModelSerializer):
     class Meta:

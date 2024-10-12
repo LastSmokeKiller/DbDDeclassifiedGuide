@@ -22,7 +22,7 @@ class Killer(models.Model):
     power = models.TextField()
 
     # DLC id that the Killer comes from
-    # dlc_id = models.ForeignKey('DLC', blank=True)
+    dlc_id = models.ForeignKey('DLC', blank=True, on_delete=models.CASCADE)
 
     # List of perks that belong to the killer
     killer_perks = models.ManyToManyField(KillerPerk)

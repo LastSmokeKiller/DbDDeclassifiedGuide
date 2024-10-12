@@ -19,7 +19,7 @@ class KillerPerk(models.Model):
     common = models.CharField(max_length=15)
 
     # The Survivor id the perk comes from
-    # killer_id = models.ForeignKey(Killer, on_delete=models.CASCADE)
+    killer_id = models.ForeignKey('Killer', on_delete=models.CASCADE)
 
     # The discription of the Perk
     description = models.TextField()
