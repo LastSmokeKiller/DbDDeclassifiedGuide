@@ -15,7 +15,7 @@ from declassified import serializers
 from dbdeclassified import models
 from dbdeclassified import permissions
 from .forms import IriCalcForm
-from .models import IridescentCalc
+from declassified.models import IridescentCalc
 #Create your views here.
 
 class IriCalcView(View):

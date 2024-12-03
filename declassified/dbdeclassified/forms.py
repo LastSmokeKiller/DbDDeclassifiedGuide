@@ -4,7 +4,6 @@ from django.contrib.auth import get_user_model
 from django.contrib.admin.widgets import FilteredSelectMultiple
 from django.contrib.auth.models import Group
 
-from dbdeclassified.models import IridescentCalc
 
 
 User = get_user_model()
