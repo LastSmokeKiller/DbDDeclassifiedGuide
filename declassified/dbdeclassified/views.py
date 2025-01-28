@@ -21,7 +21,7 @@ from declassified.models import IridescentCalc
 class IriCalcView(View):
     def get(self, request):
         form = IriCalcForm()
-        return render(request, 'IriCalc/index.html', {'form': form})
+        return render(request, 'IridescentCalculator/index.html', {'form': form})
 
     def post(self, request):
         form  = IriCalcForm(request.POST)
@@ -52,4 +52,4 @@ class IriCalcView(View):
             }
 
         # render the template
-        return render(request, 'IriCalc/results.html', context)
+        return render(request, 'IridescentCalculator/results.html', context)

@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import settings
 
-from dbdeclassified import views
+from dbdeclassified.views import IriCalcView
 
 from rest_framework.routers import DefaultRouter
 
@@ -25,9 +27,12 @@ router = DefaultRouter()
 # router.register('dbd-viewset')
 
 urlpatterns = [
+    path('api/',include('rest_framework.urls',namespace='rest_framework')),
+    path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
     path('',include(router.urls)),
-]
+    path('IridescentCalculator', IriCalcView.as_view(), name="index"),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
 

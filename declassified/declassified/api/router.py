@@ -1,5 +1,5 @@
 from rest_framework import routers
-from dbdeclassified.api.apiViews import SurvivorPerkViewSet
+from declassified.api.apiViews import SurvivorPerkViewSet
 
 router = routers.DefaultRouter()
 

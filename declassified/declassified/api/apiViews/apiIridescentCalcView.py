@@ -8,7 +8,7 @@ from rest_framework.renderers import TemplateHTMLRenderer
 from django.shortcuts import get_object_or_404
 
 
-from dbdeclassified.api.serializers.serial_iridescentcalc import IridescentCalcSerializer
+from declassified.api.serializers.serial_iridescentcalc import IridescentCalcSerializer
 from dbdeclassified.models import IridescentCalc
 
 
